@@ -23,7 +23,8 @@ function diff_date() {
   return [days, hours, minutes, seconds];
 }
 // Target launch date
-const launchDate = new Date("2024-02-01T00:00:00"); // change this to your desired date
+const launchDate = new Date(); // change this to your desired date
+launchDate.setDate(launchDate.getDate() + 30); // just for demo purposes
 
 // Initial and next numbers for countdown
 let previousNumbers = [0, 0, 0, 0];

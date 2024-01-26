@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- description -->
+    <meta
+      name="description"
+      content="Frontend Mentor | Launch countdown timer"
+    />
+    <!-- Normalize CSS File -->
+    <link rel="stylesheet" href="./CSS/normalize.css" />
+    <!-- Bootstrap CSS File -->
+    <link href="./CSS/bootstrap.min.css" rel="stylesheet" />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="./CSS/mian.css" />
+    <!-- Favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Launch countdown timer</title>
+  </head>
+  <body
+    class="d-flex justify-content-center align-items-center position-relative"
+  >
+    <!-- Main contianer -->
+    <main
+      class="d-flex justify-content-center align-items-start position-relative"
+    >
+      <h1 id="heading" class="text-white fs-5 text-uppercase position-absolute">
+        We're launching soon
+      </h1>
+      <div id="numbers-container" class="d-flex gap-4">
+        <div id="days" class="position-relative">
+          <div class="number-container position-relative">
+            <div class="flip-number position-absolute">
+              <div class="flip-number-container position-relative">
+                <div
+                  class="number-top flip-number-front position-absolute d-flex justify-content-center"
+                >
+                  00
+                </div>
+                <div
+                  class="number-bottom flip-number-back position-absolute d-flex justify-content-center"
+                >
+                  00
+                </div>
+              </div>
+            </div>
+            <div
+              class="static-number d-flex justify-content-center align-items-center flex-column"
+            >
+              <div
+                class="number-top static-number-top d-flex justify-content-center"
+              >
+                00
+              </div>
+              <div
+                class="number-bottom static-number-bottom d-flex justify-content-center"
+              >
+                00
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="hours" class="position-relative">
+          <div class="number-container position-relative">
+            <div class="flip-number position-absolute">
+              <div class="flip-number-container position-relative">
+                <div
+                  class="number-top flip-number-front position-absolute d-flex justify-content-center"
+                >
+                  00
+                </div>
+                <div
+                  class="number-bottom flip-number-back position-absolute d-flex justify-content-center"
+                >
+                  00
+                </div>
+              </div>
+            </div>
+            <div
+              class="static-number d-flex justify-content-center align-items-center flex-column"
+            >
+              <div
+                class="number-top static-number-top d-flex justify-content-center"
+              >
+                00
+              </div>
+              <div
+                class="number-bottom static-number-bottom d-flex justify-content-center"
+              >
+                00
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="minutes" class="position-relative">
+          <div class="number-container position-relative">
+            <div class="flip-number position-absolute">
+              <div class="flip-number-container position-relative">
+                <div
+                  class="number-top flip-number-front position-absolute d-flex justify-content-center"
+                >
+                  00
+                </div>
+                <div
+                  class="number-bottom flip-number-back position-absolute d-flex justify-content-center"
+                >
+                  00
+                </div>
+              </div>
+            </div>
+            <div
+              class="static-number d-flex justify-content-center align-items-center flex-column"
+            >
+              <div
+                class="number-top static-number-top d-flex justify-content-center"
+              >
+                00
+              </div>
+              <div
+                class="number-bottom static-number-bottom d-flex justify-content-center"
+              >
+                00
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="seconds" class="position-relative">
+          <div class="number-container position-relative">
+            <div class="flip-number position-absolute">
+              <div class="flip-number-container position-relative">
+                <div
+                  class="number-top flip-number-front position-absolute d-flex justify-content-center"
+                >
+                  00
+                </div>
+                <div
+                  class="number-bottom flip-number-back position-absolute d-flex justify-content-center"
+                >
+                  00
+                </div>
+              </div>
+            </div>
+            <div
+              class="static-number d-flex justify-content-center align-items-center flex-column"
+            >
+              <div
+                class="number-top static-number-top d-flex justify-content-center"
+              >
+                00
+              </div>
+              <div
+                class="number-bottom static-number-bottom d-flex justify-content-center"
+              >
+                00
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="position-absolute bottom-0">
+      <ul
+        class="list-unstyled d-flex justify-content-center align-items-center gap-4"
+      >
+        <li>
+          <a href="#">
+            <img
+              src="./images/icon-facebook.svg"
+              width="24"
+              height="24"
+              alt="facebook"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="./images/icon-instagram.svg"
+              width="24"
+              height="24"
+              alt="instagram"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="./images/icon-pinterest.svg"
+              width="24"
+              height="24"
+              alt="pinterest"
+            />
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <!-- Main JS File -->
+    <script src="./JS/main.js"></script>
+    <!-- Bootstrap JS File -->
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

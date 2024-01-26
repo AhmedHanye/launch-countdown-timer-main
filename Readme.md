@@ -42,7 +42,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [solution URL here🎯](<[https://your-solution-url.com](https://www.frontendmentor.io/solutions/launch-countdown-timer-1d2-s4tu_-)>)
+- Solution URL: [solution URL here🎯](https://www.frontendmentor.io/solutions/launch-countdown-timer-1d2-s4tu_-)
 - Live Site URL: [Demo Website🎯](https://ahmedhanye.github.io/launch-countdown-timer-main/)
 
 ## My process
